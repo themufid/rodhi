@@ -4,23 +4,16 @@
     scroll-behavior: smooth;
     box-sizing: border-box;
   }
-
   body {
     position: relative;
+    background: linear-gradient(to right, rgba(25,118,210,0.7), white, rgba(25,118,210,0.7));
     width: 100%;
     min-height: 100vh;
-    font-family: "poppins", sans-serif;
-    background-color: #f2f2f2;
-    color: #333;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
+    font-family: "Roboto", sans-serif;
   }
-
   body::-webkit-scrollbar {
     display: none;
   }
-
   a {
     color: #343b45;
     text-decoration: none;
@@ -267,5 +260,23 @@
   .whatsapp-icon:hover {
     background-color: darkgreen; 
     transform: scale(1.1); 
+  }
+  
+  .dark-mode {
+    background-color: #333; 
+    color: #fff; 
+  }
+
+  .dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  
+  .dark-mode-toggle i {
+    font-size: 24px;
+    color: #fff;
   }
   
