@@ -24,3 +24,4 @@ function showMessage() {
     alert("Terimakasih, silahkan tanyakan saja apa yang anda inginkan ya!");
   }, 3000); 
 }
+
