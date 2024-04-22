@@ -6,7 +6,7 @@
   }
   body {
     position: relative;
-    background: rgba(240, 240, 240, 1);
+    background: linear-gradient(to right, rgba(25,118,210,0.7), white, rgba(25,118,210,0.7));
     width: 100%;
     min-height: 100vh;
     font-family: "Roboto", sans-serif;
@@ -39,7 +39,7 @@
   .picture {
     height: 9rem;
     width: 9rem;
-    background-color: #52c8ff;
+    background-color: #00445A;
     border-radius: 100%;
     overflow: hidden;
   }
@@ -168,7 +168,7 @@
     width: 100%;
     text-align: center;
     padding: 5px; 
-    background: linear-gradient(135deg, rgba(253,219,146,0.7), rgba(25,118,210,0.7), rgba(253,219,146,0.7)); /* Menggunakan nilai RGBA untuk transparansi */
+    background: linear-gradient(135deg, rgba(253,219,146,0.7), rgba(25,118,210,0.7), rgba(253,219,146,0.7)); 
     color: white;
   }
 
@@ -229,7 +229,7 @@
 
   .arrow-icon {
     font-size: 24px;
-    color: blue; 
+    color: green;
   }
 
   .love-icon {
