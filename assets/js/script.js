@@ -18,3 +18,9 @@ ScrollReveal().reveal(socialMediaLinks, {
   origin: "bottom",
   scale: 0.9
 });
+
+function showMessage() {
+  setTimeout(function() {
+    alert("Halo kak, mau tanya sesuatu dong...");
+  }, 3000); 
+}

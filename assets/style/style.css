@@ -202,6 +202,31 @@
     }
   }
   
+  @keyframes iconMovement {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+  }
+
+  .social-icon {
+      display: inline-block;
+      font-size: 24px;
+      margin-right: 10px;
+      animation: iconMovement 2s infinite; 
+  }
+
+  .social-icon:hover {
+      animation: iconMovementHover 0.5s;
+  }
+
+  @keyframes iconMovementHover {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(5px); }
+      75% { transform: translateX(-5px); }
+      100% { transform: translateX(0); }
+  }
+
+
   .arrow-icon {
     font-size: 24px;
     color: blue; 
@@ -214,3 +239,26 @@
   .paragraph-spacing {
     margin-top: 10px; 
   }
+
+  .whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999; 
+    background-color: green; 
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    transition: background-color 0.3s, transform 0.3s; 
+  }
+  
+  .whatsapp-icon:hover {
+    background-color: darkgreen; 
+    transform: scale(1.1); 
+  }
+  
