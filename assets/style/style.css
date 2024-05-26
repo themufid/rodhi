@@ -19,9 +19,13 @@
     text-decoration: none;
   }
 
-  ul {
+  ol {
     list-style-type: disc;
     padding-left: 20px;
+  }
+
+  ul {
+    list-style-type: none;
   }
 
   .wrapper {
