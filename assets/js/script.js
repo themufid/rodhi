@@ -39,3 +39,26 @@ function toggleDarkMode() {
     darkIcon.classList.add('fa-sun');
   }
 }
+
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+  event.preventDefault(); 
+
+  var name = document.getElementById('name').value;
+  var email = document.getElementById('email').value;
+  var message = document.getElementById('message').value;
+
+  var subject = 'Pesan dari ' + name;
+
+  var mailtoLink = 'mailto:almufid.business@gmail.com' +
+                   '?subject=' + encodeURIComponent(subject) +
+                   '&body=' + encodeURIComponent(message + '\n\nSalam,\n' + name);
+
+  window.location.href = mailtoLink;
+
+  document.getElementById('name').value = '';
+  document.getElementById('email').value = '';
+  document.getElementById('message').value = '';
+});
+
+
+
