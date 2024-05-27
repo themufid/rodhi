@@ -43,12 +43,19 @@
     width: 100%;
   }
   
+  @keyframes movePicture {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+
   .picture {
     height: 9rem;
     width: 9rem;
     background-color: #00445A;
     border-radius: 100%;
     overflow: hidden;
+    animation: movePicture 2s infinite alternate;
   }
   .picture img {
     height: 9rem;
