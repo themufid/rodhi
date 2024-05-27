@@ -27,5 +27,15 @@ function showMessage() {
 
 function toggleDarkMode() {
   const body = document.body;
-  body.classList.toggle("dark-mode");
+  const darkIcon = document.getElementById('dark-icon');
+  
+  if (body.classList.contains('dark-mode')) {
+    body.classList.remove('dark-mode');
+    darkIcon.classList.remove('fa-sun');
+    darkIcon.classList.add('fa-moon');
+  } else {
+    body.classList.add('dark-mode');
+    darkIcon.classList.remove('fa-moon');
+    darkIcon.classList.add('fa-sun');
+  }
 }
