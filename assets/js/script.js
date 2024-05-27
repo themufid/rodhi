@@ -51,7 +51,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
 
   var mailtoLink = 'mailto:almufid.business@gmail.com' +
                    '?subject=' + encodeURIComponent(subject) +
-                   '&body=' + encodeURIComponent(message + '\n\nSalam,\n' + name);
+                   '&body=' + encodeURIComponent(message + '\n\nTulisPesanAnda,\n' + name);
 
   window.location.href = mailtoLink;
 
