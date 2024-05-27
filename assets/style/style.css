@@ -270,20 +270,23 @@
   }
   
   .dark-mode {
-    background-color: #333; 
-    color: #fff; 
-  }
-
-  .dark-mode-toggle {
-    position: fixed;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-  }
-  
-  .dark-mode-toggle i {
-    font-size: 24px;
+    background-color: #333;
     color: #fff;
   }
   
+<<<<<<< HEAD
+=======
+  .dark-mode-toggle {
+    position: fixed;
+    top: 20px; 
+    right: 20px;
+    z-index: 9999;
+    margin-bottom: 20px; 
+  
+  }
+  
+  .dark-mode-resistant {
+    color: #000 !important; 
+  }
+  
+>>>>>>> e2aa9a7 (Add New Features)

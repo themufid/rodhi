@@ -25,3 +25,7 @@ function showMessage() {
   }, 3000); 
 }
 
+function toggleDarkMode() {
+  const body = document.body;
+  body.classList.toggle("dark-mode");
+}
