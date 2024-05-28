@@ -21,7 +21,7 @@ ScrollReveal().reveal(socialMediaLinks, {
 
 function showMessage() {
   setTimeout(function() {
-    alert("Terimakasih, silahkan tanyakan saja apa yang anda inginkan ya!");
+    alert("Terimakasih, silahkan tanyakan saja apa yang anda inginkan yaa!");
   }, 3000); 
 }
 
