@@ -21,7 +21,7 @@ ScrollReveal().reveal(socialMediaLinks, {
 
 function showMessage() {
   setTimeout(function() {
-    alert("Terimakasih, silahkan tanyakan saja apa yang anda inginkan ya!");
+    alert("Terimakasih, silahkan tanyakan saja apa yang anda inginkan yaa!");
   }, 3000); 
 }
 
@@ -47,11 +47,11 @@ document.getElementById('contact-form').addEventListener('submit', function(even
   var email = document.getElementById('email').value;
   var message = document.getElementById('message').value;
 
-  var subject = 'Pesan dari ' + name;
+  var subject = 'Message From ' + name;
 
   var mailtoLink = 'mailto:almufid.business@gmail.com' +
                    '?subject=' + encodeURIComponent(subject) +
-                   '&body=' + encodeURIComponent(message + '\n\nTulisPesanAnda,\n' + name);
+                   '&body=' + encodeURIComponent(message + '\n\nSalam,\n' + name);
 
   window.location.href = mailtoLink;
 
