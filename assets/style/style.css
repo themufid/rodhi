@@ -56,7 +56,7 @@
     border-radius: 100%;
     overflow: hidden;
     animation: movePicture 2s infinite alternate;
-    margin-top: 2rem;
+  
   }
   .picture img {
     height: 9rem;
